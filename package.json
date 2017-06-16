@@ -2,6 +2,9 @@
   "name": "antd-wrapper",
   "version": "0.1.10",
   "main": "./index.js",
+  "engines" : {
+    "node": "^8.0.0"
+  },
   "dependencies": {
     "antd": "^2.11.0",
     "babel-core": "^6.25.0",
