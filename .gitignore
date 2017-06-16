@@ -1,0 +1,35 @@
+# Misc files
+*.DS_Store
+.wercker
+.vscode
+
+# Build
+build/*
+
+# Logs
+*.logs
+*.log
+
+# Coverage directory used by tools like nyc
+.nyc_output
+esdoc
+coverage
+jest-coverage
+
+# Compiled binary addons (http://nodejs.org/api/addons.html)
+build/Release
+
+# Dependency directory
+node_modules
+
+# Users Environment Variables
+.lock-wscript
+
+.idea
+
+# TEMPORARY npm lockfile removal because dependency installation doesn't work otherwise
+package-lock.json
+
+# Editors
+*.sublime-project
+*.sublime-workspace

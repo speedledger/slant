@@ -1,0 +1,55 @@
+@import '~antd/dist/antd.less';
+// Use the src rather than the dist for the example.
+@import '../src/index.less';
+
+.app {
+  padding: 0;
+  margin: 1rem;
+}
+
+.demo-section {
+  margin: 2rem 0;
+
+  > h2 {
+    border-bottom: 1px solid #eee;
+    margin-bottom: 1rem;
+  }
+}
+
+.block-container {
+  > * {
+    margin: 1rem 0;
+    display: block;
+  }
+}
+
+.inline-block-container {
+  > * {
+    margin: 1rem 0;
+    display: inline-block;
+  }
+}
+
+.hero {
+  margin: 3rem 0;
+
+  h1 {
+    font-size: 36px;
+  }
+}
+
+.appear {
+  animation: appear-keyframe .75s ease-in-out;
+}
+
+@keyframes appear-keyframe {
+  0% {
+    transform: scale(.95);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
