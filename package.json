@@ -1,7 +1,12 @@
 {
   "name": "slant",
+  "private": false,
   "version": "2.11.1",
   "main": "./index.js",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/speedledger/slant.git"
+  },
   "engines": {
     "node": "^8.0.0"
   },
