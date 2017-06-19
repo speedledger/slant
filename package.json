@@ -1,12 +1,12 @@
 {
-  "name": "antd-wrapper",
-  "version": "0.1.10",
+  "name": "slant",
+  "version": "2.11.1",
   "main": "./index.js",
   "engines": {
     "node": "^8.0.0"
   },
   "dependencies": {
-    "antd": "^2.11.0"
+    "antd": "^2.11.1"
   },
   "devDependencies": {
     "babel-core": "^6.25.0",
@@ -21,8 +21,11 @@
     "css-loader": "^0.28.3",
     "express": "^4.15.3",
     "html-webpack-plugin": "^2.28.0",
+    "husky": "^0.13.4",
+    "image-diff": "^1.6.3",
     "less": "^2.7.2",
     "less-loader": "^4.0.4",
+    "nightmare": "^2.10.0",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
     "react-hot-loader": "^3.0.0-beta.7",
@@ -36,6 +39,9 @@
     "postpublish": "echo 'Package published!'",
     "clean": "rm -rf build && rm -rf dist && rm -rf lib",
     "build": "npm run clean && cp -rf node_modules/antd/dist/ dist && cp -rf node_modules/antd/lib/ lib && cp -rf src/ dist/slstyle && echo 'dist and lib folder constructed'",
-    "example": "npm run build && NODE_ENV=development node example/server.js"
+    "example": "npm run build && NODE_ENV=development node example/server.js",
+    "test": "npm run diff:run-test",
+    "diff:run-test": "node test/index.js",
+    "diff:approve": "cp -f test//tmp/out.png test/reference.png"
   }
 }

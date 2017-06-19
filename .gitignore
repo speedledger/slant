@@ -24,7 +24,6 @@ node_modules
 
 # Users Environment Variables
 .lock-wscript
-
 .idea
 
 # TEMPORARY npm lockfile removal because dependency installation doesn't work otherwise
@@ -33,3 +32,6 @@ package-lock.json
 # Editors
 *.sublime-project
 *.sublime-workspace
+
+## temporary files
+test/tmp
