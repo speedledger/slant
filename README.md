@@ -54,5 +54,4 @@ Before publishing, ensure that the version matches the `antd` version as closely
 * `npm run clean` - removes `dist` and `lib` folders
 * `npm run build` - copies our `src` and ant-design `dist` into combined `dist` and `lib` folders.
 * `npm run example` - runs `build` and then starts a devserver with HMR on http://localhost:3000 with the example docs.
-* `npm run test` - runs visual regression testing.
-* `npm run diff:approve` - approves visual diffs by overwriting reference image. Make sure to commit it. 
+* `npm run test` - runs a jest snapshot test.

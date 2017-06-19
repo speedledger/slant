@@ -32,6 +32,3 @@ package-lock.json
 # Editors
 *.sublime-project
 *.sublime-workspace
-
-## temporary files
-test/tmp

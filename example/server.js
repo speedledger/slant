@@ -3,8 +3,6 @@ const path = require('path');
 const webpack = require('webpack');
 const WebpackDevServer = require('webpack-dev-server');
 
-const config = require('../webpack.config');
-
 console.log('Starting webpack dev server');
 
 new WebpackDevServer(webpack(config), {
@@ -23,4 +21,3 @@ new WebpackDevServer(webpack(config), {
     console.log(err);
   }
 });
-
