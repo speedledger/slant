@@ -37,6 +37,8 @@ Once you've done these steps you're all set to start using `slant` as if you wer
 
 Testing consists of a simple automated browser test based on [nightmare.js](https://github.com/segmentio/nightmare) followed by screenshot comparison using [image-diff](https://github.com/uber-archive/image-diff).
 
+The visual tests require (imagemagick)[https://www.imagemagick.org/script/index.php] to work. Install it using `brew`.
+
 To run tests, first launch the example `npm run example` and then run `npm test`. A screenshot of the example page and a diff image will be placed in `test/tmp` and `image-diff` will be used to compare them. If there are any differences, make sure they are intentional and run `npm run diff:approve` to overwrite the reference screenshot with the new screenshot. Don't forget to `add` and `commit` the new screenshot.
 
 ## Developing
