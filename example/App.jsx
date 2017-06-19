@@ -12,7 +12,7 @@ class App extends Component {
     return (
       <div className="app">
         <LocaleProvider locale={svSE}>
-          <Row className="appear">
+          <Row>
             <Col sm={{ span: 18, offset: 3 }} md={{ span: 16, offset: 4 }}>
               <Row className="t-center hero">
                 <h1>Welcome to <i>Slant</i></h1>

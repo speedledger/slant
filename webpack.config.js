@@ -1,28 +1,7 @@
 const webpack = require('webpack');
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
-
-const shared = {
-  module: {
-    rules: [
-      {
-        test: /\.jsx?$/,
-        exclude: /node_modules/,
-        use: [
-          { loader: 'babel-loader' },
-        ],
-      },
-      {
-        test: /\.less$/,
-        use: [
-          { loader: 'style-loader' },
-          { loader: 'css-loader', options: { url: false } },
-          { loader: 'less-loader', options: { url: false } },
-        ],
-      },
-    ],
-  },
-};
+const shared = require('./wepack.shared.config');
 
 module.exports = {
   devtool: 'source-map',
@@ -57,7 +36,7 @@ module.exports = {
   module: shared.module,
 
   resolve: {
-    extensions: ['.js', '.jsx' ],
+    extensions: ['.js', '.jsx', '.less', '.html' ],
     modules: [
       path.resolve(__dirname, 'example'),
       'node_modules',
