@@ -1,7 +1,7 @@
 {
   "name": "slant",
   "private": false,
-  "version": "2.11.1",
+  "version": "2.11.2",
   "main": "./index.js",
   "repository": {
     "type" : "git",
