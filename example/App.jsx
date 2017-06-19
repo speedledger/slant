@@ -106,9 +106,6 @@ class App extends Component {
                   <Button type="primary">Here's an antd button</Button>
                   <Button size="large"><i>Here's a large antd button</i></Button>
                   <Button type="danger" size="small">A small antd button</Button>
-                  <p>Loading animation:</p>
-                  <Button type="primary" size="large" loading>Loading...</Button>
-                  <Button type="default" size="large" loading>Loading...</Button>
                 </div>
                 <p>Ghost buttons:</p>
                 <div className="inline-block-container" style={{ backgroundColor: '#f1f1ea', padding: '8px' }}>
@@ -130,15 +127,6 @@ class App extends Component {
                   </FormItem>
                 </div>
                 <div className="block-container">
-                  <FormItem
-                    label="Validating"
-                    hasFeedback
-                    validateStatus="validating"
-                    help="The information is being validated..."
-                  >
-                    <Input placeholder="I'm the content is being validated" id="validating" />
-                  </FormItem>
-
                   <FormItem
                     label="Success"
                     hasFeedback
