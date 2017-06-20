@@ -102,6 +102,7 @@ class App extends Component {
                 <h2>Buttons</h2>
                 <p>Buttons have received a slight box shadow, small buttons have 1px smaller font size.</p>
                 <p>The default button has a more prominent border and text color.</p>
+                <p>The height of the default button has been increased to 32px, the same height as <code>large</code> form inputs.</p>
                 <div className="block-container">
                   <Button type="primary">Here's an antd button</Button>
                   <Button size="large"><i>Here's a large antd button</i></Button>

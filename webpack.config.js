@@ -1,7 +1,27 @@
 const webpack = require('webpack');
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
-const shared = require('./wepack.shared.config');
+const shared = {
+  module: {
+    rules: [
+      {
+        test: /\.jsx?$/,
+        exclude: /node_modules/,
+        use: [
+          { loader: 'babel-loader' },
+        ],
+      },
+      {
+        test: /\.less$/,
+        use: [
+          { loader: 'style-loader' },
+          { loader: 'css-loader', options: { url: false } },
+          { loader: 'less-loader', options: { url: false } },
+        ],
+      },
+    ],
+  },
+};
 
 module.exports = {
   devtool: 'source-map',

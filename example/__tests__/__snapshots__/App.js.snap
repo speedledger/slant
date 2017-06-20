@@ -391,6 +391,13 @@ ShallowWrapper {
                     <p>
                         The default button has a more prominent border and text color.
                     </p>
+                    <p>
+                        The height of the default button has been increased to 32px, the same height as 
+                        <code>
+                            large
+                        </code>
+                         form inputs.
+                    </p>
                     <div
                         className="block-container"
                     >
@@ -1029,6 +1036,13 @@ ShallowWrapper {
                               </p>
                               <p>
                                     The default button has a more prominent border and text color.
+                              </p>
+                              <p>
+                                    The height of the default button has been increased to 32px, the same height as 
+                                    <code>
+                                          large
+                                    </code>
+                                     form inputs.
                               </p>
                               <div
                                     className="block-container"
@@ -1703,6 +1717,13 @@ ShallowWrapper {
                                                   <p>
                                                             The default button has a more prominent border and text color.
                                                   </p>
+                                                  <p>
+                                                            The height of the default button has been increased to 32px, the same height as 
+                                                            <code>
+                                                                      large
+                                                            </code>
+                                                             form inputs.
+                                                  </p>
                                                   <div
                                                             className="block-container"
                                                   >
@@ -2341,6 +2362,13 @@ ShallowWrapper {
                                                   </p>
                                                   <p>
                                                             The default button has a more prominent border and text color.
+                                                  </p>
+                                                  <p>
+                                                            The height of the default button has been increased to 32px, the same height as 
+                                                            <code>
+                                                                      large
+                                                            </code>
+                                                             form inputs.
                                                   </p>
                                                   <div
                                                             className="block-container"

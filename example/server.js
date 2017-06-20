@@ -2,6 +2,7 @@ const express = require('express');
 const path = require('path');
 const webpack = require('webpack');
 const WebpackDevServer = require('webpack-dev-server');
+const config = require('../webpack.config');
 
 console.log('Starting webpack dev server');
 
