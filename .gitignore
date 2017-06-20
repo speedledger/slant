@@ -31,5 +31,5 @@ package-lock.json
 *.sublime-workspace
 
 # published directories
-dist
-lib
+dist/
+lib/
