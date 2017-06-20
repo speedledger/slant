@@ -596,6 +596,29 @@ ShallowWrapper {
                     gutter={0}
                 >
                     <h2>
+                        Links
+                    </h2>
+                    <p>
+                        A special link style is included globally - 
+                        <code>
+                            .sl-pretty-link
+                        </code>
+                    </p>
+                    <p>
+                        <a
+                            className="sl-pretty-link"
+                            href="#"
+                        >
+                            A link with this style
+                        </a>
+                         is styled without text-decoration and instead has a custom border-bottom.
+                    </p>
+                </Row>
+                <Row
+                    className="demo-section"
+                    gutter={0}
+                >
+                    <h2>
                         Other components
                     </h2>
                     <p>
@@ -1236,6 +1259,29 @@ ShallowWrapper {
                                           total={50}
                                     />
                               </div>
+                        </Row>
+                        <Row
+                              className="demo-section"
+                              gutter={0}
+                        >
+                              <h2>
+                                    Links
+                              </h2>
+                              <p>
+                                    A special link style is included globally - 
+                                    <code>
+                                          .sl-pretty-link
+                                    </code>
+                              </p>
+                              <p>
+                                    <a
+                                          className="sl-pretty-link"
+                                          href="#"
+                                    >
+                                          A link with this style
+                                    </a>
+                                     is styled without text-decoration and instead has a custom border-bottom.
+                              </p>
                         </Row>
                         <Row
                               className="demo-section"
@@ -1922,6 +1968,29 @@ ShallowWrapper {
                                                   gutter={0}
                                         >
                                                   <h2>
+                                                            Links
+                                                  </h2>
+                                                  <p>
+                                                            A special link style is included globally - 
+                                                            <code>
+                                                                      .sl-pretty-link
+                                                            </code>
+                                                  </p>
+                                                  <p>
+                                                            <a
+                                                                      className="sl-pretty-link"
+                                                                      href="#"
+                                                            >
+                                                                      A link with this style
+                                                            </a>
+                                                             is styled without text-decoration and instead has a custom border-bottom.
+                                                  </p>
+                                        </Row>
+                                        <Row
+                                                  className="demo-section"
+                                                  gutter={0}
+                                        >
+                                                  <h2>
                                                             Other components
                                                   </h2>
                                                   <p>
@@ -2562,6 +2631,29 @@ ShallowWrapper {
                                                                       total={50}
                                                             />
                                                   </div>
+                                        </Row>
+                                        <Row
+                                                  className="demo-section"
+                                                  gutter={0}
+                                        >
+                                                  <h2>
+                                                            Links
+                                                  </h2>
+                                                  <p>
+                                                            A special link style is included globally - 
+                                                            <code>
+                                                                      .sl-pretty-link
+                                                            </code>
+                                                  </p>
+                                                  <p>
+                                                            <a
+                                                                      className="sl-pretty-link"
+                                                                      href="#"
+                                                            >
+                                                                      A link with this style
+                                                            </a>
+                                                             is styled without text-decoration and instead has a custom border-bottom.
+                                                  </p>
                                         </Row>
                                         <Row
                                                   className="demo-section"
