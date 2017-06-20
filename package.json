@@ -41,7 +41,7 @@
     "webpack-dev-server": "^2.4.5"
   },
   "scripts": {
-    "prepublishOnly": "npm run build:lib",
+    "prepublishOnly": "npm run build",
     "postpublish": "echo 'Package published!'",
     "clean": "rm -rf dist && rm -rf lib",
     "build": "npm run clean && cp -rf node_modules/antd/dist/ dist && cp -rf node_modules/antd/lib/ lib && cp -rf src/ dist/slstyle && echo 'dist and lib folder constructed'",
