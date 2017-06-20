@@ -1,3 +1,5 @@
+@import '../overrides/antd-theme.less';
+
 h1,
 h2,
 h3,
@@ -8,7 +10,7 @@ h6 {
 }
 
 body {
-  color: #555555;
+  color: @font-color;
 }
 
 .t-center {
@@ -21,4 +23,21 @@ body {
 
 .t-italic {
   font-style: italic;
+}
+
+.sl-pretty-link {
+  color: @link-color;
+  transition: color .15s ease-in-out;
+  text-decoration: none;
+  border-bottom: 1px solid;
+
+  &:hover {
+    text-decoration: none;
+    color: @link-hover-color;
+  }
+
+  &:active,
+  &:focus {
+    text-decoration: none;
+  }
 }

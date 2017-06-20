@@ -16,9 +16,6 @@ esdoc
 coverage
 jest-coverage
 
-# Compiled binary addons (http://nodejs.org/api/addons.html)
-build/Release
-
 # Dependency directory
 node_modules
 
@@ -32,3 +29,7 @@ package-lock.json
 # Editors
 *.sublime-project
 *.sublime-workspace
+
+# published directories
+dist
+lib

@@ -163,6 +163,11 @@ class App extends Component {
                 </div>
               </Row>
               <Row className="demo-section">
+                <h2>Links</h2>
+                <p>A special link style is included globally - <code>.sl-pretty-link</code></p>
+                <p><a className="sl-pretty-link" href="#">A link with this style</a> is styled without text-decoration and instead has a custom border-bottom.</p>
+              </Row>
+              <Row className="demo-section">
                 <h2>Other components</h2>
                 <p>No changes, here for preview purposes</p>
                 <div className="inline-block-container">
