@@ -29,7 +29,3 @@ package-lock.json
 # Editors
 *.sublime-project
 *.sublime-workspace
-
-# published directories
-dist/
-lib/

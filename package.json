@@ -1,7 +1,7 @@
 {
   "name": "slant",
   "private": false,
-  "version": "2.11.4",
+  "version": "2.11.5",
   "main": "./index.js",
   "repository": {
     "type" : "git",
@@ -44,7 +44,7 @@
     "prepublishOnly": "npm run build:lib",
     "postpublish": "echo 'Package published!'",
     "clean": "rm -rf dist && rm -rf lib",
-    "build:lib": "npm run clean && cp -rf node_modules/antd/dist/ dist && cp -rf node_modules/antd/lib/ lib && cp -rf src/ dist/slstyle && echo 'dist and lib folder constructed'",
+    "build": "npm run clean && cp -rf node_modules/antd/dist/ dist && cp -rf node_modules/antd/lib/ lib && cp -rf src/ dist/slstyle && echo 'dist and lib folder constructed'",
     "start": "npm run build:lib && NODE_ENV=development node example/server.js",
     "test": "NODE_ENV=test jest"
   },
