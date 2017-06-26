@@ -9,8 +9,8 @@ import ColumnGroup from './ColumnGroup';
 export declare type TableColumnConfig<T> = ColumnProps<T>;
 export interface TableRowSelection<T> {
     type?: 'checkbox' | 'radio';
-    selectedRowKeys?: string[];
-    onChange?: (selectedRowKeys: string[], selectedRows: Object[]) => any;
+    selectedRowKeys?: string[] | number[];
+    onChange?: (selectedRowKeys: string[] | number[], selectedRows: Object[]) => any;
     getCheckboxProps?: (record: T) => Object;
     onSelect?: (record: T, selected: boolean, selectedRows: Object[]) => any;
     onSelectAll?: (selected: boolean, selectedRows: Object[], changeRows: Object[]) => any;
@@ -28,11 +28,11 @@ export interface TableProps<T> {
     rowKey?: string | ((record: T, index: number) => string);
     rowClassName?: (record: T, index: number) => string;
     expandedRowRender?: any;
-    defaultExpandedRowKeys?: string[];
-    expandedRowKeys?: string[];
+    defaultExpandedRowKeys?: string[] | number[];
+    expandedRowKeys?: string[] | number[];
     expandIconAsCell?: boolean;
     expandIconColumnIndex?: number;
-    onExpandedRowsChange?: (expandedRowKeys: string[]) => void;
+    onExpandedRowsChange?: (expandedRowKeys: string[] | number[]) => void;
     onExpand?: (expanded: boolean, record: T) => void;
     onChange?: (pagination: PaginationProps | boolean, filters: string[], sorter: Object) => any;
     loading?: boolean | SpinProps;
